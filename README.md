@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/ofpay/dubbo-rpc-jsonrpc.svg)](https://travis-ci.org/ofpay/dubbo-rpc-jsonrpc)
+[![Build Status](https://travis-ci.org/QianmiOpen/dubbo-rpc-jsonrpc.svg)](https://travis-ci.org/QianmiOpen/dubbo-rpc-jsonrpc)
+
 
 
 ## Why HTTP
@@ -65,6 +66,10 @@ Multi protocol:
 Jetty Server: (default)
 ```xml
 <dubbo:protocol ... server="jetty" />
+
+或jetty的最新版：
+<dubbo:protocol ... server="jetty9" />
+
 ```
 Maven:
 ```xml
@@ -78,6 +83,7 @@ Maven:
 Servlet Bridge Server: (recommend)
 ```xml
 <dubbo:protocol ... server="servlet" />
+
 ```
 
 web.xml：
